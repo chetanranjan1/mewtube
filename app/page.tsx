@@ -1,7 +1,5 @@
+import { HomeFeed } from "@/components/home-feed";
+
 export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+  return <HomeFeed />;
 }
